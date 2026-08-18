@@ -160,12 +160,12 @@ useEffect(() => {
 
         {/* Poster Image */}
         <a
-          href="https://forms.gle/YOUR_GOOGLE_FORM_LINK" // Replace with your GForm
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeEt2YWTlHOOwrpmnm8MBdoepjjp6rOxWqz8hwOG-kdbxg-hw/viewform" // Replace with your GForm
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
-            src="/recruitment-poster.jpg" // Change to your poster file path
+            src="/Recruitment26poster.PNG" // Change to your poster file path
             alt="Recruitment Poster"
             className="rounded-md w-full h-auto cursor-pointer hover:scale-105 transform transition duration-300"
           />

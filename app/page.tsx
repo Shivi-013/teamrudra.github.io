@@ -44,6 +44,15 @@ const Home = () => {
   useEffect(() => {
     document.body.style.overflow = isMenuOpen ? 'hidden' : 'auto';
   }, [isMenuOpen]);
+  const [showPopup, setShowPopup] = useState(false);
+
+useEffect(() => {
+  const alreadyShown = sessionStorage.getItem('recruitmentPopupShown');
+  if (!alreadyShown) {
+    setShowPopup(true);
+    sessionStorage.setItem('recruitmentPopupShown', 'true');
+  }
+}, []);
 
   const sponsorshipImages = [
     { src: './sukrit-infotech.png', alt: 'Sukrit Infotech', url: 'https://www.sukritinfotech.com' },

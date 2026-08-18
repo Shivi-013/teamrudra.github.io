@@ -165,7 +165,7 @@ useEffect(() => {
           rel="noopener noreferrer"
         >
           <img
-            src="/Recruitment26poster.PNG" // Change to your poster file path
+            src="/Recruitment26poster.png" // Change to your poster file path
             alt="Recruitment Poster"
             className="rounded-md w-full h-auto cursor-pointer hover:scale-105 transform transition duration-300"
           />
